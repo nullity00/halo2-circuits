@@ -9,6 +9,7 @@ cargo build
 ## Test the circuit
 ```
 cargo test -- --nocapture test_fibonacci
+cargo test -- --nocapture test_range_check
 
 ```
 
