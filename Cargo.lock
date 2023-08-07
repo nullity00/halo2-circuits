@@ -514,6 +514,7 @@ dependencies = [
 name = "halo2"
 version = "0.1.0"
 dependencies = [
+ "group",
  "halo2_proofs",
  "plotters",
 ]

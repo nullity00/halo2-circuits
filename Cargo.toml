@@ -8,5 +8,6 @@ edition = "2021"
 dev-graph = ["halo2_proofs/dev-graph", "plotters"]
 
 [dependencies]
+group = "0.13.0"
 halo2_proofs = { version = "0.3.0", features = ["dev-graph", "tabbycat"] }
 plotters = {version = "0.3.5", optional = true}
